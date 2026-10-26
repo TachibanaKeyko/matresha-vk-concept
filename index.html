@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Матрёша — концепт оформления группы ВКонтакте</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f6eddf;--card:#fffaf2;--line:#e6d8c2;--txt:#221c1e;--mut:#7d7068;--acc:#d8322a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.55 "Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+header{padding:56px 0 28px;border-bottom:1px solid var(--line)}
+.tag{color:var(--acc);font-size:13px;letter-spacing:.25em;text-transform:uppercase;font-weight:700}
+h1{font-size:clamp(28px,5vw,46px);margin:10px 0 8px;line-height:1.15}
+.lead{color:var(--mut);max-width:760px;margin:0}
+section{padding:44px 0;border-bottom:1px solid var(--line)}
+h2{font-size:22px;margin:0 0 6px;display:flex;align-items:center;gap:12px}
+h2 span{color:var(--acc);font-size:14px;letter-spacing:.2em}
+h3{font-size:17px;margin:28px 0 12px}
+.sub{color:var(--mut);margin:0 0 22px;max-width:780px}
+.shot{display:block;width:100%;border-radius:14px;border:1px solid var(--line);background:#fff}
+a.zoom{display:block;cursor:zoom-in}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:start}
+.grid3 img{width:100%;display:block;border-radius:12px;border:1px solid var(--line)}
+.cap{color:var(--mut);font-size:14px;margin-top:8px}
+ul.pts{margin:18px 0 0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+ul.pts li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;color:#4a4044;font-size:15px}
+ul.pts b{color:var(--txt);display:block;margin-bottom:2px}
+.row{display:flex;gap:14px;flex-wrap:wrap}
+footer{padding:32px 0 48px;color:var(--mut);font-size:14px}
+.lb{position:fixed;inset:0;background:rgba(20,16,17,.94);display:none;align-items:center;justify-content:center;z-index:9;overscroll-behavior:contain;cursor:zoom-out}
+.lb.on{display:flex}
+.lb img{max-width:96vw;max-height:94vh;border-radius:8px}
+body.lock{overflow:hidden}
+@media(max-width:700px){.grid3{grid-template-columns:1fr 1fr}}
+</style></head>
+<body>
+<header><div class="wrap">
+  <div class="tag">концепт · Матрёша · Саров</div>
+  <h1>Оформление группы ВКонтакте</h1>
+  <p class="lead">Обложка, иконки разделов и кнопок, шаблоны постов в трёх форматах. Взяла узнаваемую матрёшку из вашего логотипа и собрала вокруг неё современный стиль: тёплый светлый фон, красный акцент, чёрный для текста. Цвета, шрифт и логотип быстро подстраиваются под новый сайт и приложение</p>
+</div></header>
+
+<main class="wrap">
+<section>
+  <h2><span>01</span>Обложка</h2>
+  <p class="sub">1920×768, логотип, слоган, город, оффер про приложение и телефон</p>
+  <a class="zoom" href="img/cover-main.jpg"><img class="shot" src="img/cover-main.jpg" alt="Обложка"></a>
+  <h3>Как обрежется на телефоне и компьютере</h3>
+  <p class="sub">Логотип, оффер и телефон стоят в центральной зоне, поэтому на телефоне ничего важного не теряется. Еда по краям остаётся украшением и спокойно уходит за край</p>
+  <a class="zoom" href="img/cover-zones.jpg"><img class="shot" src="img/cover-zones.jpg" alt="Безопасные зоны обложки"></a>
+</section>
+
+<section>
+  <h2><span>02</span>Иконки</h2>
+  <p class="sub">Разделы «Меню», «Доставка», «Отзывы», «Контакты» и кнопки «Заказать», «Скачать приложение», «Написать нам». Простые контуры в фирменных цветах, читаются даже в 40 px</p>
+  <a class="zoom" href="img/icons.jpg"><img class="shot" src="img/icons.jpg" alt="Иконки" style="max-width:760px"></a>
+  <h3>Плитки для меню сообщества</h3>
+  <p class="sub">Готовый размер ВК 376×256, светлый и тёмный вариант</p>
+  <a class="zoom" href="img/tiles.jpg"><img class="shot" src="img/tiles.jpg" alt="Плитки меню"></a>
+</section>
+
+<section>
+  <h2><span>03</span>Шаблоны постов</h2>
+  <p class="sub">Три рубрики со своим цветом, чтобы лента сразу читалась: новинки на светлом, акции на красном, обеды на тёмном. В каждой рубрике квадрат 1:1, вертикаль 4:5 и сторис 9:16. Фото в шаблонах примерные, подставляются ваши</p>
+  <h3>Квадрат 1080×1080</h3>
+  <div class="grid3">
+    <a class="zoom" href="img/new-sq.jpg"><img src="img/new-sq.jpg" alt="Новинка"></a>
+    <a class="zoom" href="img/promo-sq.jpg"><img src="img/promo-sq.jpg" alt="Акция"></a>
+    <a class="zoom" href="img/lunch-sq.jpg"><img src="img/lunch-sq.jpg" alt="Обеды"></a>
+  </div>
+  <h3>Вертикаль 1080×1350</h3>
+  <div class="grid3">
+    <a class="zoom" href="img/new-v.jpg"><img src="img/new-v.jpg" alt="Новинка"></a>
+    <a class="zoom" href="img/promo-v.jpg"><img src="img/promo-v.jpg" alt="Акция"></a>
+    <a class="zoom" href="img/lunch-v.jpg"><img src="img/lunch-v.jpg" alt="Обеды"></a>
+  </div>
+  <h3>Сторис 1080×1920</h3>
+  <p class="sub">Сверху и снизу оставлены поля под интерфейс ВК, текст и кнопки ими не перекрываются</p>
+  <div class="grid3">
+    <a class="zoom" href="img/new-st.jpg"><img src="img/new-st.jpg" alt="Новинка"></a>
+    <a class="zoom" href="img/promo-st.jpg"><img src="img/promo-st.jpg" alt="Акция"></a>
+    <a class="zoom" href="img/lunch-st.jpg"><img src="img/lunch-st.jpg" alt="Обеды"></a>
+  </div>
+  <ul class="pts">
+    <li><b>Читаемость</b>Крупный заголовок и цена видны даже в маленьком превью ленты</li>
+    <li><b>Единый стиль</b>Одни цвета, шрифт и матрёшка на обложке, в иконках и в каждом посте</li>
+    <li><b>Под новый бренд</b>Пришлёте логотип и цвета нового сайта, переведу всё в них</li>
+  </ul>
+</section>
+</main>
+
+<footer class="wrap">Концепт для обсуждения, тексты и фото примерные</footer>
+
+<div class="lb" id="lb"><img alt=""></div>
+<script>
+const lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.querySelectorAll('a.zoom').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();li.src=a.href;lb.classList.add('on');document.body.classList.add('lock')}));
+lb.addEventListener('click',()=>{lb.classList.remove('on');document.body.classList.remove('lock')});
+</script>
+</body></html>
